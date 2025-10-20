@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -71,7 +71,8 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.task-input__field {
+.task-input__field,
+.task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,7 +98,7 @@ button{
 }
 
 /* Task list */
-li {
+.task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -106,7 +107,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.task > * {
   vertical-align: middle;
 }
 
